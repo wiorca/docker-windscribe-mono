@@ -2,6 +2,12 @@
 
 A docker image with the latest version of mono and windscribe installed.
 
+## Deprecated
+
+I do plan to keep updating this, but I would recommend using other images with the base docker-windscribe client instead.  You can then use the network of the windscribe container.
+
+--net=container:[docker-windscribe-continer-name]
+
 ## About the image
 
 Windscribe docker container that provides mono packages.
